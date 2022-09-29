@@ -2,10 +2,17 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="Nav-container">
-      <button className="logo-s">S</button>
-      <p className="smile"> Smile </p>
-      <p className="nattakit"> Nattakit </p>
+    <div className="Nav-Container">
+      <div className="Nav-left">
+        <button className="logo-s">S</button>
+        <p className="smile"> Smile </p>
+        <p className="nattakit"> Nattakit </p>
+      </div>
+      <div className="Nav-right">
+        <p className="menu">About me</p>
+        <p className="menu">Experience</p>
+        <p className="menu">Education</p>
+      </div>
     </div>
   );
 }

@@ -3,18 +3,23 @@
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 .App-bg {
   background-color: rgb(1, 123, 235);
-  height: 100vh;
+  height: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 .App-container {
-  background-color: #fafafa;
-  width: 95vw;
-  height: 85vh;
+  margin-top: 50px;
+  background-color: #fff;
+  width: 90vw;
+  height: max-content;
   border-radius: 50px;
+  padding-bottom: 50px;
 }

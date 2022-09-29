@@ -1,3 +1,7 @@
+.Nav-Container {
+  display: flex;
+  justify-content: space-between;
+}
 .logo-s {
   border-radius: 50%;
   border: none;
@@ -8,10 +12,15 @@
   font-weight: bolder;
   font-size: 30px;
 }
-.Nav-container {
+.Nav-left {
   display: flex;
   align-items: center;
   margin: 50px 0 0 30px;
+}
+.Nav-right {
+  display: flex;
+  align-items: center;
+  margin: 50px 50px 0 30px;
 }
 .smile {
   font-weight: bolder;
@@ -20,4 +29,14 @@
 }
 .nattakit {
   font-size: 18px;
+}
+.menu {
+  padding: 0 20px 0 20px;
+  color: gray;
+  font-weight: 500;
+  font-size: 18px;
+}
+.menu:hover {
+  color: black;
+  cursor: pointer;
 }
