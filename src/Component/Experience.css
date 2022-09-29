@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  width: max-content;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, rgb(1, 123, 235) 40%, lightgray 25%) 5;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px 0 100px;
+}
+
+.box-pattern {
+  margin: 20px 0 20px 0;
+  border-bottom: 1px lightgrey solid;
+  display: flex;
+}
+.img-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.Header {
+  padding: 50px 0 50px 30px;
+  border-top: 1px lightgrey solid;
+  border-bottom: 1px lightgrey solid;
+  margin-bottom: 30px;
+}

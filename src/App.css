@@ -9,7 +9,7 @@
 
 .App-bg {
   background-color: rgb(1, 123, 235);
-  height: max-content;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,4 +22,7 @@
   height: max-content;
   border-radius: 50px;
   padding-bottom: 50px;
+}
+hr {
+  border: 1px rgb(237, 237, 237) solid;
 }

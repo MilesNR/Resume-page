@@ -1,6 +1,7 @@
 .Nav-Container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .logo-s {
   border-radius: 50%;

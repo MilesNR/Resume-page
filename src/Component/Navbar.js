@@ -10,8 +10,7 @@ function Navbar() {
       </div>
       <div className="Nav-right">
         <p className="menu">About me</p>
-        <p className="menu">Experience</p>
-        <p className="menu">Education</p>
+        <p className="menu">Experience & Education</p>
       </div>
     </div>
   );
