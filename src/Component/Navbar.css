@@ -35,9 +35,20 @@
   padding: 0 20px 0 20px;
   color: gray;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.2vw;
 }
 .menu:hover {
   color: black;
   cursor: pointer;
+}
+@media only screen and (max-width: 1100px) {
+  .Nav-right {
+    display: flex;
+
+    justify-content: right;
+    padding: 0;
+  }
+  .menu {
+    font-size: 1.9vw;
+  }
 }

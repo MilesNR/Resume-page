@@ -1,6 +1,5 @@
 import "./Experience.css";
 import * as React from "react";
-import { useNavigate } from "react-router-dom";
 
 function Experience() {
   return (
@@ -10,7 +9,7 @@ function Experience() {
         {/* Experience */}
 
         <div className="experience">
-          <h3 className="title">Experience</h3>
+          <h3 className="title">Education</h3>
           <div className="box-pattern">
             <img className="img-logo" src={require("./img/techup.jfif")}></img>
             <div>
@@ -36,7 +35,7 @@ function Experience() {
         {/* Education */}
 
         <div className="education">
-          <h3 className="title">Education</h3>
+          <h3 className="title">Experience</h3>
           <div className="box-pattern">
             <img className="img-logo" src={require("./img/charm.png")}></img>
             <div>

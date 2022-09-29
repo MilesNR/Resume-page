@@ -23,6 +23,7 @@
   margin: 20px 0 20px 0;
   border-bottom: 1px lightgrey solid;
   display: flex;
+  font-size: 1.2vw;
 }
 .img-logo {
   width: 70px;
@@ -34,4 +35,20 @@
   border-top: 1px lightgrey solid;
   border-bottom: 1px lightgrey solid;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 30px 50px 0 50px;
+    height: 100vh;
+  }
+  .box-pattern {
+    margin: 20px 0 20px 0;
+    border-bottom: 1px lightgrey solid;
+    display: flex;
+    font-size: 1.9vw;
+  }
 }
