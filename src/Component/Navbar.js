@@ -1,6 +1,8 @@
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="Nav-Container">
       <div className="Nav-left">
@@ -9,8 +11,22 @@ function Navbar() {
         <p className="nattakit"> Nattakit </p>
       </div>
       <div className="Nav-right">
-        <p className="menu">About me</p>
-        <p className="menu">Experience & Education</p>
+        <p
+          className="menu"
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          Home
+        </p>
+        <p
+          className="menu"
+          onClick={() => {
+            navigate("/Experience");
+          }}
+        >
+          Experience & Education
+        </p>
       </div>
     </div>
   );

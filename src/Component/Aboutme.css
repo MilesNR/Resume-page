@@ -45,6 +45,7 @@
   height: 40px;
   border-color: rgb(1, 123, 235);
   margin-right: 10px;
+  background-color: white;
 }
 
 .btn:hover {

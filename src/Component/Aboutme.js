@@ -34,8 +34,11 @@ function Aboutme() {
             <a href="https://www.linkedin.com/in/nattakit-rattanakeha-746b39248/">
               <input className="btn Linkedin" type="button" value="Linkedin" />
             </a>
+            <a href="https://www.facebook.com/Smile.Nattakit/">
+              <input className="btn facebook" type="button" value="Facebook" />
+            </a>
             <a href="https://github.com/MilesNR">
-              <input className="btn Linkedin" type="button" value="Git Hub" />
+              <input className="btn github" type="button" value="Git Hub" />
             </a>
           </div>
         </div>
